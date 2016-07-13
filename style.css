@@ -5,26 +5,22 @@
 	width: 100%;
 	height: 5000px;
 	background-color: lightgrey;
-	z-index: 0;
 }
 #header{
 	/*bura deyishilecek*/
 	width: 100%;
 	height: 270px;
 	background-color: blue;
-	z-index: 1;
 }
 #first{
 	width: auto;
 	height: 480px;
-	z-index: 2;
 	margin: 60px  110px 0px 110px;
 }
 #first div{
 	width: 550px;
 	height: 470px;
 	background: url(images/about-us.jpg);
-	z-index: 3;
 	float: left;
 }
 #first h2, #first p{
@@ -36,28 +32,87 @@
 	width: 280px;
 	margin-left: 590px;
 	border-color: #2d7ec1;
+	margin-bottom: 0px;
 }
 #hr2{
 	width: 110px;
 	margin-left: 590px;
 	border-color: #2d7ec1;
 	margin-left: 590px;
-	margin-top: -9px;
+	margin-top: 0px;
 }
 #second{
-	width: 1140px;
-	height: 30px;
-	margin: 40px  110px 0px 110px;
+	width: 1200px;
+	height: 360px;
+	margin: 30px  110px 0px 110px;
 }
 #second div{
 	width: 260px;
 	height: 360px;
 	float: left;
 	background-color: #117fdb;
-	margin: 0px 12px;
+	margin-right: 30px;
 	padding: 15px;
-
 }
 #second div img{
-	margin: 25px 90px;
+	margin: 20px 80px 10px 80px;
+}
+#second div h2{
+	color: white;
+	text-align: center;
+	font-family: Calibri;
+	text-transform: uppercase;
+}
+#second div p{
+	color: white;
+	font-family: Calibri;
+}
+#second div div{
+	width: 140px;
+	height: 40px;
+	background-color: #115c9b;
+	text-align: center;
+	line-height: 10px;
+	margin: 20px 40px 10px 40px;
+}
+#second div div span{
+	text-transform: uppercase;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
+}
+#third{
+	width: 1200px;
+	height: 420px;
+	margin: 30px  110px 0px 110px;
+	background-color: black;
+}
+#third h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Calibri;
+	color: #3c79ad;
+	margin-bottom: 0px;
+	margin-top: 55px;
+}
+#hr11{
+	text-align: center;
+	width: 270px;
+	border-color: #2d7ec1;
+	margin-bottom: 0px;
+}
+#hr12{
+	text-align: center;
+	width: 100px;
+	border-color: #2d7ec1;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+#third div{
+	width: 260px;
+	height: 360px;
+	float: left;
+	background-color: #117fdb;
+	margin-right: 30px;
+	padding: 15px;
 }
