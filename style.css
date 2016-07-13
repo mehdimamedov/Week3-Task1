@@ -83,7 +83,7 @@
 }
 #third{
 	width: 1200px;
-	height: 420px;
+	height: 460px;
 	margin: 30px  110px 0px 110px;
 	background-color: black;
 }
@@ -114,5 +114,8 @@
 	float: left;
 	background-color: #117fdb;
 	margin-right: 30px;
-	padding: 15px;
+	padding: 1px;
+}
+#third div img{
+	width: 100%;
 }
